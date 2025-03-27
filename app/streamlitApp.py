@@ -17,7 +17,7 @@ st.set_page_config(
 # Load the trained ensemble model
 # modelfile = r"app\model\voting_model_updated.pkl"
 # voting_model = pickle.load(open(modelfile, "rb"))
-modelfile = r"app/model/voting_model_updated.pkl"
+modelfile = "./voting_model_updated.pkl"
 voting_model = joblib.load(modelfile)
 
 # Function to predict delivery time
