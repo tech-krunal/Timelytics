@@ -1,0 +1,8 @@
+numpy
+scikit-learn
+pandas
+xgboost
+streamlit
+Pillow
+scikit-learn==1.0.2
+xgboost==2.1.4
